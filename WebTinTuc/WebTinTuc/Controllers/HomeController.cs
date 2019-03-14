@@ -35,5 +35,12 @@ namespace WebTinTuc.Controllers
 
             return View();
         }
+
+        public ActionResult news()
+        {
+            ViewBag.Message = "Your news page.";
+
+            return View();
+        }
     }
 }
